@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Encriptador | Desencriptador</title>
+</head>
+<body>
+    <!-- Inicia header -->
+    <header>
+        <img src="img/Logo.png" alt="Logo" class="logo">
+    </header>
+    <!-- Termina header -->
+
+    <!-- Inicia main -->
+    <main>
+        <!-- Inicia section -->
+        <section>
+            <textarea class="textoArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <!-- Inicia .botones -->
+            <div class="botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+            <!-- Termina .botones -->
+        </section>
+        <!-- Termina section -->
+
+        <!-- Inicia section -->
+        <section class="rectangulo-mensaje">
+            <textarea id="mensaje" class="mensaje" cols="20" rows="10" disabled></textarea>
+
+            <img src="img/Muñeco.png" alt="Muñeco" class="img-muneco">
+
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+        <!-- Termina section -->
+    </main>
+    <!-- Termina main -->
+
+    <footer>
+        <div class="copyright">
+            <p>&copy Gerardo Daniel Mendoza Galeana - 2023</p>
+            <p>Estudiante de Alura Latam</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
